@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Nome do Site</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-section {
+            background-image: url('background-image.jpg'); /* Adicione uma imagem de fundo */
+            background-size: cover;
+            background-position: center;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-button {
+            background-color: #3089c6;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #3089c6;
+        }
+
+        .info-section {
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .info-section h3 {
+            margin-bottom: 20px;
+        }
+
+        .info-section p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo do site" class="logo">
+                <div class="site-info">
+                    <h1>AGIS</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="exclusao_cliente.html">Excluir Cliente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <h2>Bem-vindo a AGIS</h2>
+        <p>A confiança que te acompanha!</p>
+        <button class="cta-button" onclick="window.location.href='cadastro.html'">Comece Agora!</button>
+    </section>
+
+    <section class="info-section">
+        <h3>O que oferecemos</h3>
+        <p>Gerencie informações de clientes com facilidade.</p>
+        <p>Cadastro rápido e simples.</p>
+        <p>Exclusão de clientes com um clique.</p>
+        <p>Acesso seguro e eficiente.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nome do Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
